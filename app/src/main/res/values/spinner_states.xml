@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states">
+        <item>MG</item>
+        <item>PR</item>
+        <item>SP</item>
+        <item>RJ</item>
+        <item>MT</item>
+        <item>SC</item>
+    </string-array>
+
+
+</resources>

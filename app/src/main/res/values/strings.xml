@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Animals Friends :)</string>
+    <string name="btn_mistreatment">Maus Tratos</string>\>
+    <string name="btn_adoption">Adoção</string>\>
+    <string name="lb_name_person">Nome do anunciante</string>\>
+    <string name="lb_cpf_person">CPF</string>\>
+    <string name="lb_email_person">E-mail</string>\>
+    <string name="lb_telephone_person">Telefone</string>\>
+    <string name="lb_celphone_person">Celular</string>\>
+    <string name="lb_state_name">Estado</string>\>
+    <string name="lb_city_name">Cidade</string>\>
+    <string name="lb_animal_name">Nome do animal</string>\>
+    <string name="lb_animal_description">Descrição do animal</string>\>
+    <string name="lb_species_animal">Espécie do animal</string>\>
+    <string name="lb_weight_animal">Peso do animal</string>\>
+    <string name="lb_gender_animal">Sexo do animal</string>\>
+    <string name="lb_age_animal">Idade do animal</string>\>
+    <string name="lb_breed_animal">Raça do animal</string>\>
+    <string name="lb_castrate_animal">Animal castrado?</string>\>
+    <string name="lb_size_animal">Tamanho</string>\>
+    <string name="lb_link">Link vídeo</string>\>
+    <string name="lb_date">Data cadastro</string>\>
+    <string name="btn_register">Cadastrar</string>\>
+    <string name="btn_save">Salvar</string>\>
+    <string name="lb_neighborhood">Bairro</string>\>
+    <string name="lb_street">Rua</string>\>
+    <string name="lb_longitudet">Longitude</string>\>
+    <string name="lb_latitude">Latitude</string>\>
+    <string name="btn_delete">Deletar</string>\>
+</resources>
