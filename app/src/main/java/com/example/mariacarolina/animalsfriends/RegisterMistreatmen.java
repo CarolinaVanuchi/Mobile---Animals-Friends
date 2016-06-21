@@ -91,13 +91,14 @@ public class RegisterMistreatmen extends AppCompatActivity {
                 model.setStreet(street.getText().toString());
                 model.setLongitude(longitude.getText().toString());
                 model.setLatitude(latitude.getText().toString());
-                model.save();
+
                 if (model.getId() == null) {
                     WebService.passarDadosWebServiceMausTratos(model);
                 }
                 Toast.makeText(RegisterMistreatmen.this, "Operação realizada com sucessp ", Toast.LENGTH_LONG).show();
                 finish();
             }
+            model.save();
             model = new MistreatmentModel();
         }catch (Exception e){
             Toast.makeText(RegisterMistreatmen.this, "Erro "+e,Toast.LENGTH_LONG).show();

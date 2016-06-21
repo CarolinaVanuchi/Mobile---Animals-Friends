@@ -145,7 +145,7 @@ public class RegisterAdoption extends AppCompatActivity {
                 model.setLinkVideo(linkVideo.getText().toString());
                 model.setRegistrationDate(dateRegister.getText().toString());
                 model.setStateName(stateName.getText().toString());
-                model.save();
+
                 if (model.getId() == null) {
                     WebService.passarDadosWebService(model.getNamePerson(), model.getCpfPerson(), model.getEmailPerson(),
                             model.getTelephonePerson(), model.getCelphonePerson(), model.getNameAnimal(), model.getDescriptionAnimal(),
@@ -153,9 +153,10 @@ public class RegisterAdoption extends AppCompatActivity {
                             model.getAgeAnimal(), model.getBreedAnimal(), model.getCastratedAnimal(),
                             model.getRegistrationDate(), model.getLinkVideo(), model.getCityName(), model.getStateName());
                 }
-                Toast.makeText(RegisterAdoption.this, "Operação realizada com sucessp ", Toast.LENGTH_LONG).show();
+                Toast.makeText(RegisterAdoption.this, "Operação realizada com sucesso ", Toast.LENGTH_LONG).show();
                 finish();
             }
+            model.save();
             model = new AdoptionModelo();
         } catch (Exception e) {
             Toast.makeText(RegisterAdoption.this, "Erro " + e, Toast.LENGTH_LONG).show();

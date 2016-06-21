@@ -38,7 +38,7 @@ public class WebService {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        String myurl = "http://192.168.25.3:8080/ServicoWeb/resource/webService/save";
+        String myurl = "http://172.17.255.109:8080/ServicoWeb/resource/webService/save";
         String POST_PARAMS = "namePerson=" + namePerson + "&cpfPerson=" + cpfPerson + "&emailPerson=" + emailPerson +
                 "&telephonePerson=" + telephonePerson + "&celphonePerson=" + celphonePerson +"&nameAnimal="+nameAnimal+
                 "&descriptionAnimal="+descriptionAnimal+"&speciesAnimal"+speciesAnimal+"&weightAnimal="+weightAnimal+
@@ -71,8 +71,9 @@ public class WebService {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        String myurl = "http://192.168.25.3:8080/ServicoWeb/resource/webService/mistreatmentSave";
-        String POST_PARAMS = "namePerson=" + model.getNamePerson()+ "&specie="+model.getSpecie()+"&description="+model.getDescription()+
+        String myurl = "http://172.17.255.109:8080/ServicoWeb/resource/webService/mistreatmentSave";
+        String POST_PARAMS = "namePerson=" + model.getNamePerson()+
+                "&specie="+model.getSpecie()+"&description="+model.getDescription()+
                 "&celphone = "+model.getCelphone()+"&state="+model.getState()+"&city="+model.getCity()+
                 "&neighborhood="+model.getNeighborhood()+"&street="+model.getStreet()+
                 "&longitude="+model.getLongitude()+"&latitude="+model.getLatitude();
